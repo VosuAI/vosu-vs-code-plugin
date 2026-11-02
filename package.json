@@ -3,7 +3,7 @@
   "displayName": "VOSU",
   "description": "Generate images, videos, and 3D with VOSU from VS Code.",
   "version": "1.0.0",
-  "publisher": "vosu",
+  "publisher": "VosuAI",
   "license": "MIT",
   "icon": "icon.png",
   "homepage": "https://vosu.ai/mcp",

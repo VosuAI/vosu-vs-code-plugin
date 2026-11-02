@@ -21,10 +21,10 @@ Reload VS Code. **MCP: List Servers** should include **VOSU**. In chat, ask it t
 
 ## Publish
 
-The Marketplace id is `vosu.vosu`. Create a publisher with id `vosu` at [marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage) if you do not have one, then:
+The Marketplace id is `VosuAI.vosu`. Publish under the `VosuAI` publisher at [marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage), then:
 
 ```bash
-pnpm exec vsce login vosu
+pnpm exec vsce login VosuAI
 pnpm exec vsce publish
 ```
 

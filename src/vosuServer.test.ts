@@ -23,7 +23,7 @@ test("package.json activates the same provider id", () => {
   };
 
   assert.equal(pkg.name, "vosu");
-  assert.equal(pkg.publisher, "vosu");
+  assert.equal(pkg.publisher, "VosuAI");
   assert.equal(pkg.engines.vscode, "^1.101.0");
   assert.deepEqual(pkg.activationEvents, [`onMcpCollection:${VOSU_PROVIDER_ID}`]);
   assert.deepEqual(pkg.contributes.mcpServerDefinitionProviders, [
