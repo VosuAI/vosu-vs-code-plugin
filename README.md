@@ -14,7 +14,7 @@ From a local package:
 pnpm install
 pnpm test
 pnpm run package
-code --install-extension vosu-1.0.0.vsix
+code --install-extension vosu-1.0.1.vsix
 ```
 
 Reload VS Code. **MCP: List Servers** should include **VOSU**. In chat, ask it to check your VOSU credits.
