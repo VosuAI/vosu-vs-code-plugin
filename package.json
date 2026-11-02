@@ -1,0 +1,51 @@
+{
+  "name": "vosu",
+  "displayName": "VOSU",
+  "description": "Generate images, videos, and 3D with VOSU from VS Code.",
+  "version": "1.0.0",
+  "publisher": "vosu",
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://vosu.ai/mcp",
+  "bugs": {
+    "url": "https://vosu.ai/mcp"
+  },
+  "qna": "https://vosu.ai/mcp",
+  "galleryBanner": {
+    "color": "#FF5A1F",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": ["AI", "Machine Learning"],
+  "keywords": ["vosu", "mcp", "image-generation", "video-generation", "3d"],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "activationEvents": ["onMcpCollection:vosu"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "vosu",
+        "label": "VOSU"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "tsc -p . && node --test out/vosuServer.test.js",
+    "package": "vsce package --allow-missing-repository",
+    "vscode:prepublish": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/vscode": "^1.101.0",
+    "@vscode/vsce": "^3.6.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,12 @@
+.vscode/**
+src/**
+**/*.map
+**/*.ts
+tsconfig.json
+pnpm-lock.yaml
+node_modules/**
+.gitignore
+pnpm-workspace.yaml
+out/**/*.test.js
+!out/extension.js
+!out/vosuServer.js
