@@ -14,14 +14,14 @@ From a local package:
 pnpm install
 pnpm test
 pnpm run package
-code --install-extension vosu-1.0.1.vsix
+code --install-extension vosuai-1.0.0.vsix
 ```
 
 Reload VS Code. **MCP: List Servers** should include **VOSU**. In chat, ask it to check your VOSU credits.
 
 ## Publish
 
-The Marketplace id is `VosuAI.vosu`. Publish under the `VosuAI` publisher at [marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage), then:
+The Marketplace id is `VosuAI.vosuai`. Publish under the `VosuAI` publisher at [marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage), then:
 
 ```bash
 pnpm exec vsce login VosuAI
