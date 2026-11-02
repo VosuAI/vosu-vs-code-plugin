@@ -6,7 +6,7 @@ The first tool call asks you to sign in to VOSU. Listing tools does not. `check_
 
 ## Install
 
-From the Marketplace, once published: search for **VOSU**.
+From the Marketplace, once published: search for **VosuAI**.
 
 From a local package:
 
