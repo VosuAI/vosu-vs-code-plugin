@@ -1,8 +1,8 @@
 {
   "name": "vosuai",
-  "displayName": "VosuAI",
-  "description": "Generate images, videos, and 3D with VOSU from VS Code.",
-  "version": "1.0.0",
+  "displayName": "VosuAI VS code extension",
+  "description": "Generative AI for VS Code — create images, videos, music, and 3D with VOSU from chat.",
+  "version": "1.0.1",
   "publisher": "VosuAI",
   "license": "MIT",
   "icon": "icon.png",
@@ -18,8 +18,17 @@
   "engines": {
     "vscode": "^1.101.0"
   },
-  "categories": ["AI", "Machine Learning"],
-  "keywords": ["vosu", "mcp", "image-generation", "video-generation", "3d"],
+  "categories": ["AI", "Chat", "Machine Learning"],
+  "keywords": [
+    "vosu",
+    "vosuai",
+    "generative-ai",
+    "mcp",
+    "image-generation",
+    "video-generation",
+    "music",
+    "3d"
+  ],
   "capabilities": {
     "virtualWorkspaces": true,
     "untrustedWorkspaces": {

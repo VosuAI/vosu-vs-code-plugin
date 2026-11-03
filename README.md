@@ -1,34 +1,17 @@
-# VOSU for VS Code
+# VosuAI VS code extension
 
-Generate images, videos, and 3D from VS Code using the VOSU MCP server at `https://vosu.ai/mcp`.
+Generative AI for VS Code: create images, videos, music, and 3D with VOSU from chat.
 
-The first tool call asks you to sign in to VOSU. Listing tools does not. `check_balance` does not spend credits.
+Install from the Marketplace, then sign in when the first tool runs. Listing tools does not spend credits. `check_balance` is free.
 
 ## Install
 
-From the Marketplace, once published: search for **VosuAI**.
+1. In VS Code, open Extensions and search for **VosuAI VS code extension**, or install id `VosuAI.vosuai`.
+2. Reload if VS Code asks you to.
+3. Run **MCP: List Servers** — **VOSU** should appear.
+4. In Agent chat, try: “Check my VOSU credits.”
 
-From a local package:
-
-```bash
-pnpm install
-pnpm test
-pnpm run package
-code --install-extension vosuai-1.0.0.vsix
-```
-
-Reload VS Code. **MCP: List Servers** should include **VOSU**. In chat, ask it to check your VOSU credits.
-
-## Publish
-
-The Marketplace id is `VosuAI.vosuai`. Publish under the `VosuAI` publisher at [marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage), then:
-
-```bash
-pnpm exec vsce login VosuAI
-pnpm exec vsce publish
-```
-
-`vsce publish` asks for an Azure DevOps personal access token with the Marketplace **Manage** scope. Packaging does not upload anything.
+More: [vosu.ai/mcp](https://vosu.ai/mcp)
 
 ## Support
 
